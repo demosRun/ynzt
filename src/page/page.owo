@@ -1,0 +1,35 @@
+<template lang="pug">
+.home
+  .start
+    img.mouse(src="@|mouse.png|" o-animation="flicker")
+  .big-image-show
+    plug(_name="bigSwiper" _src="./src/page/swiper.owo")
+  plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.start {
+  width: 100%;
+  height: 100vh;
+  background-color: burlywood;
+  position: relative;
+  .mouse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: auto;
+  }
+}
+.big-image-show {
+  width: 100%;
+  height: 100vh;
+}
+</style>

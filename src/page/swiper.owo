@@ -1,0 +1,51 @@
+<template>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <a href="#">
+        <img src="http://www.people.com.cn/NMediaFile/2021/0708/MAIN202107081000157888920789733.jpg">
+      </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="#">
+        <img src="http://www.people.com.cn/NMediaFile/2021/0708/MAIN202107081000157888920789733.jpg">
+      </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="#">
+        <img src="http://www.people.com.cn/NMediaFile/2021/0708/MAIN202107081000157888920789733.jpg">
+      </a>
+    </div>
+  </div>
+</div>
+</template>
+
+
+<script>
+  module.exports = {
+    data: {
+      swiper: null
+    },
+    created: function () {
+      this.data.swiper = new Swiper('.swiper-container',{
+        loop:true,
+        grabCursor: true,
+        paginationClickable: true
+      })
+    }
+  }
+</script>
+
+<style>
+.swiper-container, .swiper-wrapper, .swiper-wrapper a {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.swiper-wrapper img {
+  display: block;
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+</style>
