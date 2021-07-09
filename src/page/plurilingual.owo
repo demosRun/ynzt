@@ -1,0 +1,156 @@
+<template  lang="pug">
+.plurilingual
+  ul.tab-bar
+    li English
+    li 日本語
+    li Français
+    li Deutsch
+  ul.pen
+    li
+      .card.clear
+        a(href="#")
+          img.left(src="https://cunchu.site/owo/material/tuopin/show-1.jpg")
+          .right
+            h3 Xi exchanges congratulations with South Sudanese president on 10th anniversary of diplomatic ties
+            .text
+              p BEIJING, July 9 (Xinhua) -- Chinese President Xi Jinping on Friday exchanged congratulatory messages with South Sudanese President Salva Kiir on the 10th anniversary of the establishment of diplomatic ties between the two countries.
+              p In his message, Xi said that over the past 10 years since the establishment of diplomatic ties, bilateral relations have undergone healthy and stable development, with fruitful results in their cooperation in various fields.
+              p Noting that the two sides have consistently and firmly supported each other on issues concerning each other's core interests and major concerns, Xi said that since the outbreak of the COVID-19 pandemic, the two countries have joined hands to fight the pandemic, demonstrating their deep fraternity.
+      .card.clear
+        a(href="#")
+          img.left(src="https://cunchu.site/owo/material/tuopin/show-1.jpg")
+          .right
+            h3 Xi exchanges congratulations with South Sudanese president on 10th anniversary of diplomatic ties
+            .text
+              p BEIJING, July 9 (Xinhua) -- Chinese President Xi Jinping on Friday exchanged congratulatory messages with South Sudanese President Salva Kiir on the 10th anniversary of the establishment of diplomatic ties between the two countries.
+              p In his message, Xi said that over the past 10 years since the establishment of diplomatic ties, bilateral relations have undergone healthy and stable development, with fruitful results in their cooperation in various fields.
+              p Noting that the two sides have consistently and firmly supported each other on issues concerning each other's core interests and major concerns, Xi said that since the outbreak of the COVID-19 pandemic, the two countries have joined hands to fight the pandemic, demonstrating their deep fraternity.
+    li
+      .card.clear
+        a(href="#")
+          img.left(src="https://cunchu.site/owo/material/tuopin/show-1.jpg")
+          .right
+            h3 Xi exchanges congratulations with South Sudanese president on 10th anniversary of diplomatic ties
+            .text
+              p BEIJING, July 9 (Xinhua) -- Chinese President Xi Jinping on Friday exchanged congratulatory messages with South Sudanese President Salva Kiir on the 10th anniversary of the establishment of diplomatic ties between the two countries.
+              p In his message, Xi said that over the past 10 years since the establishment of diplomatic ties, bilateral relations have undergone healthy and stable development, with fruitful results in their cooperation in various fields.
+              p Noting that the two sides have consistently and firmly supported each other on issues concerning each other's core interests and major concerns, Xi said that since the outbreak of the COVID-19 pandemic, the two countries have joined hands to fight the pandemic, demonstrating their deep fraternity.
+      .card.clear
+        a(href="#")
+          img.left(src="https://cunchu.site/owo/material/tuopin/show-1.jpg")
+          .right
+            h3 Xi exchanges congratulations with South Sudanese president on 10th anniversary of diplomatic ties
+            .text
+              p BEIJING, July 9 (Xinhua) -- Chinese President Xi Jinping on Friday exchanged congratulatory messages with South Sudanese President Salva Kiir on the 10th anniversary of the establishment of diplomatic ties between the two countries.
+              p In his message, Xi said that over the past 10 years since the establishment of diplomatic ties, bilateral relations have undergone healthy and stable development, with fruitful results in their cooperation in various fields.
+              p Noting that the two sides have consistently and firmly supported each other on issues concerning each other's core interests and major concerns, Xi said that since the outbreak of the COVID-19 pandemic, the two countries have joined hands to fight the pandemic, demonstrating their deep fraternity.
+    li
+      .card.clear
+        a(href="#")
+          img.left(src="https://cunchu.site/owo/material/tuopin/show-1.jpg")
+          .right
+            h3 Xi exchanges congratulations with South Sudanese president on 10th anniversary of diplomatic ties
+            .text
+              p BEIJING, July 9 (Xinhua) -- Chinese President Xi Jinping on Friday exchanged congratulatory messages with South Sudanese President Salva Kiir on the 10th anniversary of the establishment of diplomatic ties between the two countries.
+              p In his message, Xi said that over the past 10 years since the establishment of diplomatic ties, bilateral relations have undergone healthy and stable development, with fruitful results in their cooperation in various fields.
+              p Noting that the two sides have consistently and firmly supported each other on issues concerning each other's core interests and major concerns, Xi said that since the outbreak of the COVID-19 pandemic, the two countries have joined hands to fight the pandemic, demonstrating their deep fraternity.
+      .card.clear
+        a(href="#")
+          img.left(src="https://cunchu.site/owo/material/tuopin/show-1.jpg")
+          .right
+            h3 Xi exchanges congratulations with South Sudanese president on 10th anniversary of diplomatic ties
+            .text
+              p BEIJING, July 9 (Xinhua) -- Chinese President Xi Jinping on Friday exchanged congratulatory messages with South Sudanese President Salva Kiir on the 10th anniversary of the establishment of diplomatic ties between the two countries.
+              p In his message, Xi said that over the past 10 years since the establishment of diplomatic ties, bilateral relations have undergone healthy and stable development, with fruitful results in their cooperation in various fields.
+              p Noting that the two sides have consistently and firmly supported each other on issues concerning each other's core interests and major concerns, Xi said that since the outbreak of the COVID-19 pandemic, the two countries have joined hands to fight the pandemic, demonstrating their deep fraternity.
+    li
+      .card.clear
+        a(href="#")
+          img.left(src="https://cunchu.site/owo/material/tuopin/show-1.jpg")
+          .right
+            h3 Xi exchanges congratulations with South Sudanese president on 10th anniversary of diplomatic ties
+            .text
+              p BEIJING, July 9 (Xinhua) -- Chinese President Xi Jinping on Friday exchanged congratulatory messages with South Sudanese President Salva Kiir on the 10th anniversary of the establishment of diplomatic ties between the two countries.
+              p In his message, Xi said that over the past 10 years since the establishment of diplomatic ties, bilateral relations have undergone healthy and stable development, with fruitful results in their cooperation in various fields.
+              p Noting that the two sides have consistently and firmly supported each other on issues concerning each other's core interests and major concerns, Xi said that since the outbreak of the COVID-19 pandemic, the two countries have joined hands to fight the pandemic, demonstrating their deep fraternity.
+      .card.clear
+        a(href="#")
+          img.left(src="https://cunchu.site/owo/material/tuopin/show-1.jpg")
+          .right
+            h3 Xi exchanges congratulations with South Sudanese president on 10th anniversary of diplomatic ties
+            .text
+              p BEIJING, July 9 (Xinhua) -- Chinese President Xi Jinping on Friday exchanged congratulatory messages with South Sudanese President Salva Kiir on the 10th anniversary of the establishment of diplomatic ties between the two countries.
+              p In his message, Xi said that over the past 10 years since the establishment of diplomatic ties, bilateral relations have undergone healthy and stable development, with fruitful results in their cooperation in various fields.
+              p Noting that the two sides have consistently and firmly supported each other on issues concerning each other's core interests and major concerns, Xi said that since the outbreak of the COVID-19 pandemic, the two countries have joined hands to fight the pandemic, demonstrating their deep fraternity.
+              
+</template>
+
+
+<script>
+  module.exports = {
+    created: function () {
+      new tabIt(this.queryAll('.tab-bar li'), this.queryAll('.pen li'), 'mouseover')
+    }
+  }
+</script>
+
+<style lang="less">
+.plurilingual {
+  background-color: #f5f5f5;
+  margin-top: 30px;
+  padding: 40px 0;
+  .tab-bar {
+    text-align: center;
+    margin-bottom: 40px;
+    li {
+      display: inline-block;
+      width: 140px;
+      line-height: 40px;
+      font-size: 20px;
+      color: #00a29a;
+      cursor: pointer;
+      margin: 0 20px;
+    }
+    .active {
+      background-color: #00a29a;
+      color: white;
+    }
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+    width: 600px;
+    text-align: left;
+  }
+  .pen {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  a {
+    display: block;
+  }
+  .left {
+    width: 500px;
+    height: 280px;
+  }
+  .card {
+    margin-bottom: 20px;
+    height: 280px;
+    overflow: hidden;
+    h3 {
+      font-size: 24px;
+      line-height: 30px;
+      color: #333333;
+      margin-bottom: 15px;
+    }
+    .text {
+      font-size: 14px;
+      color: #333;
+      height: 170px;
+      overflow: hidden;
+    }
+  }
+}
+</style>

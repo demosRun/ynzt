@@ -1,22 +1,24 @@
 <template>
-<div class="swiper-container">
+<div class="simple-swiper swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <a href="#">
-        <img src="http://www.people.com.cn/NMediaFile/2021/0708/MAIN202107081000157888920789733.jpg">
+      <a href="">
+        <img src="http://cunchu.site/upload/7d936c2cb9e2ef12.jpeg">
       </a>
     </div>
     <div class="swiper-slide">
-      <a href="#">
-        <img src="http://www.people.com.cn/NMediaFile/2021/0708/MAIN202107081000157888920789733.jpg">
+      <a href="">
+        <img src="http://cunchu.site/upload/7d936c2cb9e2ef12.jpeg">
       </a>
     </div>
     <div class="swiper-slide">
-      <a href="#">
-        <img src="http://www.people.com.cn/NMediaFile/2021/0708/MAIN202107081000157888920789733.jpg">
+      <a href="">
+        <img src="http://cunchu.site/upload/7d936c2cb9e2ef12.jpeg">
       </a>
     </div>
   </div>
+  <img class="left-button" src="@|left.png|" o-tap="prev" o-hover="grow">
+  <img class="right-button" src="@|right.png|" o-tap="next" o-hover="grow">
 </div>
 </template>
 
@@ -32,6 +34,12 @@
         grabCursor: true,
         paginationClickable: true
       })
+    },
+    prev: function () {
+      this.data.swiper.swipePrev()
+    },
+    next: function () {
+      this.data.swiper.swipeNext()
     }
   }
 </script>
@@ -42,10 +50,35 @@
   height: 100%;
   position: relative;
 }
+.swiper-wrapper a {
+  display: block;
+}
 .swiper-wrapper img {
   display: block;
-  height: 100%;
-  width: auto;
+  width: 100%;
+  min-height: 100%;
   margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -50%;
+  bottom: -50%;
+  margin: auto;
+}
+.left-button {
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 90;
+}
+.right-button {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 90;
 }
 </style>

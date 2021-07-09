@@ -68,6 +68,10 @@
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true
+		},
+		{
+			"name": "tabIt",
+			"src": "https://cunchu.site/owo/script/tabIt.js"
 		}
 	],
 	"styleList": [
