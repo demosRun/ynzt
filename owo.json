@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "viewport",
-			"content": "width=1000, user-scalable=yes"
+			"content": "device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
 		},
 		{
 			"name": "format-detection",
@@ -72,6 +72,10 @@
 		{
 			"name": "tabIt",
 			"src": "https://cunchu.site/owo/script/tabIt.js"
+		},
+		{
+			"name": "check",
+			"src": "./owo_modules/check.js"
 		}
 	],
 	"styleList": [

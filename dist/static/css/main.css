@@ -153,13 +153,15 @@ table {
 
 
 #copyright {
-
   margin: 0px auto;
   font-size: 12px;
   text-align: center;
-  padding: 20px 0;
+  padding: 50px 0;
   line-height: 180%;
   clear: both;
+  height: auto;
+  position: absolute;
+  bottom: 0;
 }
 
 .w1000 {

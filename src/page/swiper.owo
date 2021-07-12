@@ -17,8 +17,8 @@
       </a>
     </div>
   </div>
-  <img class="left-button" src="@|left.png|" o-tap="prev" o-hover="grow">
-  <img class="right-button" src="@|right.png|" o-tap="next" o-hover="grow">
+  <img class="left-button no-phone" src="@|left.png|" o-tap="prev" o-hover="grow">
+  <img class="right-button no-phone" src="@|right.png|" o-tap="next" o-hover="grow">
 </div>
 </template>
 
@@ -32,6 +32,7 @@
       this.data.swiper = new Swiper('.swiper-container',{
         loop:true,
         grabCursor: true,
+        pagination: '.big-swiper-pagination',
         paginationClickable: true
       })
     },

@@ -1,25 +1,30 @@
 <template lang="pug">
 .home
-  .menu-bar
+  .menu-bar.no-phone
     a(href="#") 首页
     a(href="#") 图片
     a(href="#") 视频
     a(href="#") 报道
     a(href="#") 外文
-  .start
+  .start.no-phone
     img.mouse(src="@|mouse.png|" o-animation="flicker")
   .big-image-show
     plug(_name="bigSwiper" _src="./src/page/swiper.owo")
+    .big-swiper-pagination.no-pc
   //- 视频区域
   .video-box
   //- 轮播图切换区域
-  plug(_name="module142" _src="https://template.owo.ink/bc99b79eb7968aca.owo")
+  .swiper-show-box
+    plug(_name="module142" _src="https://template.owo.ink/bc99b79eb7968aca.owo")
   //- 多语种
   plug(_name="plurilingual" _src="./src/page/plurilingual.owo")
   //- 轮播图切换区域
-  plug(_name="module142" _src="https://template.owo.ink/bc99b79eb7968aca.owo")
-
-  plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
+  .swiper-show-box
+    plug(_name="module142" _src="https://template.owo.ink/bc99b79eb7968aca.owo")
+  .share-box
+    img.share.no-phone(src="@|share.png|")
+    img.share.no-pc(src="@|share-bg.png|")
+    plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
   
 </template>
 
@@ -76,6 +81,95 @@
   }
 }
 .plurilingual {
-  margin-bottom: 40px;
+}
+.share-box {
+  height: 800px;
+  background-image: url('@|bg-2.jpg|');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  .share {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+.swiper-show-box {
+  background-image: url('@|bg-3.jpg|');
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.big-image-show .swiper-container, .big-image-show .swiper-wrapper, .big-image-show .swiper-wrapper a {
+  height: 57vw;
+}
+.big-swiper-pagination {
+  height: 6px;
+  width: 100%;
+  z-index: 99;
+  line-height: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.big-swiper-pagination .swiper-pagination-switch {
+  background-color: #e5e5e5;
+  width: 24px;
+  height: 6px;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 3px;
+}
+.phone .big-image-show, .phone .video-box {
+  height: auto;
+}
+.phone .swiper-nQRKuKHI {
+  width: 100%;
+}
+.phone .plurilingual .pen {
+  width: 98vw;
+}
+.phone .plurilingual {
+  padding: 0;
+}
+.phone .plurilingual .tab-bar li {
+  width: 46%;
+  margin: 0 2%;
+}
+.phone .plurilingual .left {
+  width: 40vw;
+  height: 22.5vw;
+}
+.phone .plurilingual .right {
+  width: 56vw;
+}
+.phone .plurilingual .card {
+  height: 23vw;
+}
+.phone .plurilingual .card h3 {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+.phone .plurilingual .card .text {
+  font-size: 12px;
+  color: #333;
+  overflow: auto;
+  height: auto;
+  line-height: 17px;
+}
+.phone .share-box {
+  height: 153vw;
+}
+.phone .no-pc {
+  height: 91vw;
+  top: -31vw;
 }
 </style>

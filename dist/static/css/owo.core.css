@@ -170,6 +170,10 @@ li {
   height: 100%;
 }
 
+.swiper-nQRKuKHI .swiper-container .swiper-slide a:hover {
+  text-decoration: none;
+}
+
 .swiper-nQRKuKHI .swiper-container .info {
   padding: 20px;
   height: 50%;
@@ -232,9 +236,29 @@ li {
   margin: auto;
   height: 35px;
 }
+
+.swiper-nQRKuKHI .pagination {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 9;
+}
+
+.swiper-nQRKuKHI .pagination .swiper-pagination-switch {
+  width: 20px;
+  height: 20px;
+  background-color: #aba5a5;
+  display: inline-block;
+}
+
+.swiper-nQRKuKHI .pagination .swiper-active-switch {
+  background-color: #ff3333;
+}
 .plurilingual {
   background-color: #f5f5f5;
-  margin-top: 30px;
   padding: 40px 0;
 }
 
@@ -361,7 +385,113 @@ li {
   border-right: none;
 }
 
-.plurilingual {
-  margin-bottom: 40px;
+.share-box {
+  height: 800px;
+  background-image: url('../resource/bg-2.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.share-box .share {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.swiper-show-box {
+  background-image: url('../resource/bg-3.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.big-image-show .swiper-container,
+.big-image-show .swiper-wrapper,
+.big-image-show .swiper-wrapper a {
+  height: 57vw;
+}
+
+.big-swiper-pagination {
+  height: 6px;
+  width: 100%;
+  z-index: 99;
+  line-height: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.big-swiper-pagination .swiper-pagination-switch {
+  background-color: #e5e5e5;
+  width: 24px;
+  height: 6px;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 3px;
+}
+
+.phone .big-image-show,
+.phone .video-box {
+  height: auto;
+}
+
+.phone .swiper-nQRKuKHI {
+  width: 100%;
+}
+
+.phone .plurilingual .pen {
+  width: 98vw;
+}
+
+.phone .plurilingual {
+  padding: 0;
+}
+
+.phone .plurilingual .tab-bar li {
+  width: 46%;
+  margin: 0 2%;
+}
+
+.phone .plurilingual .left {
+  width: 40vw;
+  height: 22.5vw;
+}
+
+.phone .plurilingual .right {
+  width: 56vw;
+}
+
+.phone .plurilingual .card {
+  height: 23vw;
+}
+
+.phone .plurilingual .card h3 {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+
+.phone .plurilingual .card .text {
+  font-size: 12px;
+  color: #333;
+  overflow: auto;
+  height: auto;
+  line-height: 17px;
+}
+
+.phone .share-box {
+  height: 153vw;
+}
+
+.phone .no-pc {
+  height: 91vw;
+  top: -31vw;
 }
 
