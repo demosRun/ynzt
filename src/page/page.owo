@@ -168,7 +168,7 @@
 .phone .share-box {
   height: 153vw;
 }
-.phone .no-pc {
+.phone .share.no-pc {
   height: 91vw;
   top: -31vw;
 }
